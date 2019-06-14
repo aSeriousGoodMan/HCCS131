@@ -1,0 +1,21 @@
+19 10
+Homework1 Project1 Homework2 Homework3 Quiz1 Project2 Homework4 Quiz2 Homework5 Exam1
+Bruce Banner 93 84 78 96 93 84 79 81 87 97
+Bucky Barns 63 74 82 73 91 62 73 67 73 84
+Blackagar Boltagon 84 83 85 83 72 61 72 64 93 58
+Betty Brant 83 63 74 85 73 82 84 75 82 63
+Curt Connors 82 83 95 91 73 75 82 94 83 89
+J.Jonah Jameson 63 58 67 83 62 61 74 79 48 71
+Loki Laufeyson 84 92 83 67 90 84 97 83 87 93
+Mathew Murdock 95 98 93 89 96 92 93 97 100 86
+Odin Odinson 83 72 63 84 97 83 82 84 82 71
+Otto Octavius 98 73 84 73 86 93 82 93 84 93
+Peter Parker 94 95 0 93 89 97 0 92 91 100
+Pepper Potts 83 93 99 82 73 98 83 84 82 91
+Rocket Raccoon 93 84 85 92 99 93 92 82 83 90
+Reed Richards 85 82 96 79 98 83 92 85 95 82
+Sebastion Shaw 52 72 37 49 47 58 23 79 83 49
+Susan Storm 100 73 72 71 62 61 92 95 93 81
+Stephen Strange 83 67 72 76 79 87 63 73 62 63
+Scott Summers 74 72 67 88 82 73 75 72 83 68
+Victor VonDoom 73 92 83 71 78 94 69 100 92 95

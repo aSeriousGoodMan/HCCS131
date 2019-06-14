@@ -1,0 +1,67 @@
+/*----------------------------------------------------------------
+ * TODO: FILL THIS IN
+ *
+ *  Usage: java DiceGame numberOfGames seed
+ *  Example: java DiceGame 10 52
+ *----------------------------------------------------------------*/
+import java.util.Random; // Needed for the seeded Random Number Generator
+
+public class DiceGame {
+
+    public static void main(String[] args) { 
+
+        int seed = Integer.parseInt(args[1]);
+        Random rand = new Random(seed); // This initializes the random number generator
+
+        int games = Integer.parseInt(args[0]); // Number of games to simulate
+        int count = 0;       // Number of games played so far
+        int highest = -1;    // Impossibly low value, so first game will be higher
+        int lowest = Integer.MAX_VALUE; // Exceptionally high value, so first game will be lower
+        int total4All = 0;   // Accumulates the scores of all the games played.
+
+        // TODO: Loop the number of games to simulate
+	while(count <= games) {
+	    count += 1;
+	    int score = 0;
+	
+
+            // TODO: Initialize the score for this particular game.
+
+            // Pick two random integers, each from 1 to 6.
+            int a = 1 + rand.nextInt(6); // nextInt(6) returns (0 <= randNumber < 6)
+            int b = 1 + rand.nextInt(6); //      so add 1, to get 1..6 inclusive
+	    int sum = a + b;
+
+	    while(sum != 7) {
+		score += sum;
+		a = 1 + rand.nextInt(6);
+		b = 1 + rand.nextInt(6);
+		sum = a + b;
+	    }
+
+	    total4All += score;
+	    
+	    if (score <= lowest) {
+		lowest = score;
+	    }
+	    if (score >= highest) {
+		highest = score;
+	    }
+	}
+
+
+            // TODO: Update total4All so this game's score is added to 
+            //       the scores for all the games.
+            // TODO: Figure out if highest score needs to be reassigned
+            // TODO: Figure out if lowest score needs to be reassigned
+
+
+        // Print final statistics
+        System.out.println("After " + games + " simulated games:");
+        System.out.println("Best score: " + highest);
+        System.out.println("Worst score: " + lowest);
+        System.out.println("Average score: " + ((double) total4All)/games);
+
+    } // end of main
+
+} // end of class DiceGame

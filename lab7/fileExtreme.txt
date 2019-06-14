@@ -1,0 +1,23 @@
+20 1
+Homework1 
+Bruce Banner 0
+Bucky Barns 5
+Blackagar Boltagon 6
+Betty Brant 81
+Curt Connors 82 
+J.Jonah Jameson 100
+Loki Laufeyson 62
+Zephyr Lucas 97
+Mathew Murdock 93
+Odin Odinson 94
+Otto Octavius 16
+Peter Parker 16
+Pepper Potts 27
+Rocket Raccoon 28
+Reed Richards 29
+Sebastion Shaw 52
+Susan Storm 73
+Stephen Strange 66
+Scott Summers 69
+Victor VonDoom 69
+

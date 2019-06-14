@@ -1,0 +1,14 @@
+
+
+public static void main(String[] args) {
+    int n = Integer.parseInt(args[0]);
+    if (isPrime(n)) StdOut.println(n + " is prime");
+    else Stdout.println(n + " is not prime");
+}
+
+public static boolean isPrime(int n) {
+    boolean prime = true;
+    for(int i = 2; i < n; i++) {
+	if (n%i == 0) prime = false;
+    }
+}
